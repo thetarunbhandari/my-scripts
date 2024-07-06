@@ -1,7 +1,7 @@
 #!/bin/bash
 
 low=20
-full=98
+full=99
 
 battery_now=$(cat /sys/class/power_supply/BAT0/capacity)
 battery_status=$(cat /sys/class/power_supply/BAT0/status)
