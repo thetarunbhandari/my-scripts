@@ -1,7 +1,7 @@
 #!/bin/bash
 
 low=20
-full=99
+full=80
 
 while true; do
     battery_now=$(cat /sys/class/power_supply/BAT0/capacity)
