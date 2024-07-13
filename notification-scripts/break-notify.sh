@@ -1,8 +1,8 @@
 #!/bin/bash
 
-NORMAL_BREAK_TIME="1.5 hours"
-MID_BREAK_TIME="2 hours"
-HIGH_BREAK_TIME='2.5 hours'
+NORMAL_BREAK_TIME="1 hour, 30 minutes"
+MID_BREAK_TIME="2 hour"
+HIGH_BREAK_TIME='2 hour, 30 minutes'
 
 while true; do
     # get the running time
