@@ -3,12 +3,6 @@
 # check whether the Dev directory exist or not
 if [[ -d "$HOME/Dev/" ]]; then
     echo "Dev direcory exist"
-    if [[ -d "$HOME/Dev/personal-projects/" ]];then
-        echo "personal-projects directory exist in $HOME/Dev/"
-    else
-        echo "Creating personal-projects directory in $HOME/Dev/"
-        mkdir "$HOME/Dev/personal-projects/"
-    fi
 else
     echo "Creating Dev directory in $HOME"
     mkdir "$HOME/Dev/"
