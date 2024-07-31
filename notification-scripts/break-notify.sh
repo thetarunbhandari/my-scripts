@@ -7,7 +7,6 @@ HIGH_BREAK_TIME='2 hour, 30 minutes'
 while true; do
     # get the running time
     uptime="`uptime -p | sed -e 's/up //g'`"
-    echo $uptime
 
     if [[ $uptime == $NORMAL_BREAK_TIME ]]; then
         notify-send -u critical -i "~/Dev/scripts/notification-scripts/icons/system.svg" "System" "It's time to take some break"
